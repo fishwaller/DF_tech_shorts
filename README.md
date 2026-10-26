@@ -1,1 +1,0 @@
-# DF_tech_shorts
