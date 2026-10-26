@@ -1,0 +1,360 @@
+{
+  "channel": "문과 포렌식",
+  "series": "포렌식 기술의 이해",
+  "public": true,
+  "episodes": [
+    {
+      "id": "획득-1",
+      "part": "획득",
+      "no": "1",
+      "title": "현장판단",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/VeTn-4Jymko?feature=share",
+      "heading": "획득 ① 현장 triage",
+      "chips": [
+        "운영체제",
+        "NAC",
+        "파일 시그니처",
+        "해시(무결성)",
+        "DLP"
+      ],
+      "principles": [
+        "신속성",
+        "연계보관성"
+      ]
+    },
+    {
+      "id": "획득-2",
+      "part": "획득",
+      "no": "2",
+      "title": "수집방법",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/749H8vvyMUM?feature=share",
+      "heading": "획득 ② 선별·전부복제·원본반출",
+      "chips": [
+        "원격지 정보",
+        "NAC",
+        "VDI",
+        "DLP",
+        "NAC",
+        "MDM"
+      ],
+      "principles": [
+        "무결성",
+        "신속성"
+      ]
+    },
+    {
+      "id": "획득-3",
+      "part": "획득",
+      "no": "3",
+      "title": "획득기술",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/po7BfjUeKsQ?feature=share",
+      "heading": "획득 ③ 획득기술",
+      "chips": [
+        "Physical",
+        "allocated",
+        "Filesystem",
+        "$MFT",
+        "Recovery",
+        "FBE",
+        "Bitlocker",
+        "volume"
+      ],
+      "principles": [
+        "무결성",
+        "신속성"
+      ]
+    },
+    {
+      "id": "획득-4",
+      "part": "획득",
+      "no": "4",
+      "title": "재현검증",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/gthS3djOKeA?feature=share",
+      "heading": "획득 ④ 데이터 검증",
+      "chips": [
+        "DRM",
+        "Encryption",
+        "Signature",
+        "Extension",
+        "hash value"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "획득-5",
+      "part": "획득",
+      "no": "5",
+      "title": "전원활성",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/_UoJI3Gd_94?feature=share",
+      "heading": "획득 ⑤ 전원관리",
+      "chips": [
+        "AFU",
+        "Encryption",
+        "RAM",
+        "volatility",
+        "메모리 포렌식",
+        "session",
+        "processing",
+        "Temp"
+      ],
+      "principles": [
+        "재현",
+        "신속성"
+      ]
+    },
+    {
+      "id": "획득-6",
+      "part": "획득",
+      "no": "6",
+      "title": "저장장치",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/vn-yShitn7g?feature=share",
+      "heading": "획득 ⑥ 저장장치",
+      "chips": [
+        "Filesystem",
+        "Partition",
+        "Format",
+        "Wipe",
+        "Hard copy",
+        "Dump",
+        "EWF",
+        "compress"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "획득-7",
+      "part": "획득",
+      "no": "7",
+      "title": "해시함수",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/Rk4qcOcI9ck?feature=share",
+      "heading": "획득 ⑦ 해시함수",
+      "chips": [
+        "무결성",
+        "hex",
+        "triage",
+        "Dump",
+        "EWF",
+        "전자정보상세목록"
+      ],
+      "principles": [
+        "무결성",
+        "연계보관성"
+      ]
+    },
+    {
+      "id": "분석-1",
+      "part": "분석",
+      "no": "1",
+      "title": "분석분류",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/pTilB7t5S8I?feature=share",
+      "heading": "분석 ① 분석기초",
+      "chips": [
+        "artifact",
+        "metadata",
+        "signature",
+        "compress",
+        "structure",
+        "allocated",
+        "encrypted",
+        "codec"
+      ],
+      "principles": [
+        "재현",
+        "신속성"
+      ]
+    },
+    {
+      "id": "분석-2",
+      "part": "분석",
+      "no": "2",
+      "title": "의미분석",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/JVKNk3A5r_k?feature=share",
+      "heading": "분석 ② 의미분석",
+      "chips": [
+        "multimedia",
+        "context",
+        "spectrum",
+        "stream",
+        "decode",
+        "record",
+        "upscale",
+        "interpolation"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "분석-2-1",
+      "part": "분석",
+      "no": "2-1",
+      "title": "탐색",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/7xD-EjE0gI4?feature=share",
+      "heading": "분석 ②-1 의미분석: 맥락",
+      "chips": [
+        "multimedia",
+        "context",
+        "spectrum",
+        "stream",
+        "keyword",
+        "tag",
+        "triage",
+        "abstract"
+      ],
+      "principles": [
+        "재현",
+        "신속성"
+      ]
+    },
+    {
+      "id": "분석-2-2",
+      "part": "분석",
+      "no": "2-2",
+      "title": "초점",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/Qd1OJZdSgRQ?feature=share",
+      "heading": "분석 ②-2 focusing",
+      "chips": [
+        "openCV",
+        "tracking",
+        "keyword",
+        "statistic",
+        "detect"
+      ],
+      "principles": [
+        "재현",
+        "신속성"
+      ]
+    },
+    {
+      "id": "분석-2-3",
+      "part": "분석",
+      "no": "2-3",
+      "title": "개선",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/Y27wbpQjqsI?feature=share",
+      "heading": "분석 ②-3 fining",
+      "chips": [
+        "upscale",
+        "filter",
+        "track",
+        "parse",
+        "normalize",
+        "interpolation"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "분석-3",
+      "part": "분석",
+      "no": "3",
+      "title": "속성분석",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/BbeOryZlPMo?feature=share",
+      "heading": "분석 ③ 속성분석",
+      "chips": [
+        "metadata",
+        "artifact",
+        "structure",
+        "$MFT",
+        "OLE",
+        "compress",
+        "database",
+        "cache",
+        "path",
+        "statistic"
+      ],
+      "principles": [
+        "무결성",
+        "신속성"
+      ]
+    },
+    {
+      "id": "분석-3-1",
+      "part": "분석",
+      "no": "3-1",
+      "title": "메타",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/doRZ6V0BAI4?feature=share",
+      "heading": "분석 ③-1 메타데이터",
+      "chips": [
+        "mpeg",
+        "exif",
+        "FAT",
+        "$MFT",
+        "OLE",
+        "OOXML",
+        "log",
+        "evnt",
+        "MAC time",
+        "filesystem"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "분석-3-2",
+      "part": "분석",
+      "no": "3-2",
+      "title": "인공물",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/Efd2jAx1qck?feature=share",
+      "heading": "분석 ③-2 artifact",
+      "chips": [
+        "lnk",
+        "eventlog",
+        "registry",
+        "cache",
+        "database",
+        "computer generate evidence",
+        "운영체제"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    },
+    {
+      "id": "분석-3-3",
+      "part": "분석",
+      "no": "3-3",
+      "title": "구조체",
+      "status": "공개",
+      "youtube": "https://youtube.com/shorts/bhuUdoFWVe8?feature=share",
+      "heading": "분석 ③-3 구조체 분석",
+      "chips": [
+        "HxD",
+        "MPEG",
+        "AutoIncrement",
+        "database",
+        "structure"
+      ],
+      "principles": [
+        "무결성",
+        "재현"
+      ]
+    }
+  ]
+}
